@@ -1,0 +1,33 @@
+{
+  "name": "vm-config",
+  "version": "0.0.1",
+  "description": "A config service for H5 mobile App",
+  "main": "index.js",
+  "scripts": {
+    "dev": "babel src/config.js --out-file dist/config.js --presets es2015",
+    "watch": "babel src/config.js --watch --out-file dist/config.js --presets es2015"
+  },
+  "author": {
+    "name": "Hsiang",
+    "email": "280304286@163.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xiangsongtao/vm-config.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiangsongtao/vm-config/issues"
+  },
+  "homepage": "https://github.com/xiangsongtao/vm-config#readme",
+  "keywords": [
+    "vue",
+    "localStorage",
+    "sessionStorage",
+    "performance"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0"
+  }
+}
